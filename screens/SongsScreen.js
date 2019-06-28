@@ -107,6 +107,7 @@ export default class SongsScreen extends React.Component {
       this.setState({
         currentSong:song,
         isSongLoading:false,
+        isPaused:false
       });
     }
   }
