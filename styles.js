@@ -25,7 +25,6 @@ export const styles = StyleSheet.create({
     },
     songTitle:{
         fontFamily:'fira-regular',
-        color:Colors.headingColor,
         fontSize:responsiveFontSize(2.3),
         marginBottom:responsiveHeight(0.3),
     },
