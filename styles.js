@@ -3,6 +3,10 @@ import {responsiveFontSize, responsiveHeight, responsiveWidth} from "react-nativ
 import Colors from "./constants/Colors";
 
 export const styles = StyleSheet.create({
+    container:{
+      flex:1,
+      backgroundColor:'#fff',
+    },
     controlContainer:{
         flex:1,
         alignSelf:'stretch',
