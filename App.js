@@ -6,7 +6,7 @@ import {Audio} from "expo-av";
 import {getAllSongs} from "./services/SongService";
 import {LinearGradient} from "expo-linear-gradient";
 import Colors from "./constants/Colors";
-
+import {responsiveFontSize, responsiveHeight, responsiveWidth} from "react-native-responsive-dimensions";
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -184,5 +184,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
+      paddingTop:responsiveHeight(4)
   },
 });

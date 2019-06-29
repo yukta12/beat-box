@@ -25,7 +25,7 @@ export default class NowPlayingScreen extends Component{
                                 end={[1,1]}
                                 style={{flex:1,alignItems:"stretch"}}>
                     <View style={styles.searchContainer}>
-                        <LinearGradient colors={[Colors.primaryGradientStart, Colors.primaryGradientEnd]}
+                        <LinearGradient colors={[Colors.accentGradientStart, Colors.accentGradientEnd]}
                                         start={[0, 0]}
                                         end={[1, 1]}
                                         style={styles.controlContainer}>
