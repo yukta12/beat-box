@@ -3,7 +3,7 @@ React-Native music streaming App.
 
 ## Installation
 
-Clone the project [clone](https://github.com/yukta12/beat-box.git) to install beat-box.
+Clone the project to install beat-box.
 
 ## Starting the project
 Assuming that you have Node 10+ installed, you can use npm to install the Expo CLI command line utility:
